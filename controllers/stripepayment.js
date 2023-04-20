@@ -1,7 +1,8 @@
 const stripe = require("stripe")(
   "sk_test_51M6Bk7SHJ72yeXxGHq7CIEz2eMHgKKhhOezvG4BSj6Rm2JKWyqiWV4Yg9RBZkFGy2U7MnfzNqp9arZ252WASnnyy00LxsNlNsc"
 );
-const uuid = require("uuid/v4");
+const { v4: uuidv4 } = require("uuid");
+uuidv4();
 
 exports.makepayment = (req, res) => {
   const { products, token } = req.body;
