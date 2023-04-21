@@ -7,7 +7,7 @@
         "start": "nodemon app.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "urvashi",
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.19.0",
